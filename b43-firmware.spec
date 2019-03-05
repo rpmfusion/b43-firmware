@@ -1,6 +1,6 @@
 Name:		b43-firmware
 Version:	6.30.163.46
-Release:	3%{?dist}
+Release:	4%{?dist}
 Summary:	Firmware for Broadcom wireless devices
 License:	Redistributable, no modification permitted
 URL:		http://linuxwireless.sipsolutions.net/en/users/Drivers/b43/#devicefirmware
@@ -28,6 +28,9 @@ mkdir -p %{buildroot}/lib/firmware/b43
 /lib/firmware/b43/*
 
 %changelog
+* Tue Mar 05 2019 RPM Fusion Release Engineering <leigh123linux@gmail.com> - 6.30.163.46-4
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_30_Mass_Rebuild
+
 * Sun Aug 19 2018 RPM Fusion Release Engineering <leigh123linux@gmail.com> - 6.30.163.46-3
 - Rebuilt for Fedora 29 Mass Rebuild binutils issue
 
