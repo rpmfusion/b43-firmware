@@ -1,6 +1,6 @@
 Name:		b43-firmware
 Version:	6.30.163.46
-Release:	10%{?dist}
+Release:	11%{?dist}
 Summary:	Firmware for Broadcom wireless devices
 License:	Redistributable, no modification permitted
 URL:		http://linuxwireless.sipsolutions.net/en/users/Drivers/b43/#devicefirmware
@@ -28,6 +28,10 @@ mkdir -p %{buildroot}/lib/firmware/b43
 /lib/firmware/b43/*
 
 %changelog
+* Mon Aug 08 2022 RPM Fusion Release Engineering <sergiomb@rpmfusion.org> - 6.30.163.46-11
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_37_Mass_Rebuild and ffmpeg
+  5.1
+
 * Thu Feb 10 2022 RPM Fusion Release Engineering <sergiomb@rpmfusion.org> - 6.30.163.46-10
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_36_Mass_Rebuild
 
